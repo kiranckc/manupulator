@@ -1,0 +1,14 @@
+#bg-music {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    font-size: 24px;
+}
+
+#bg-music::before {
+    content: "\1F3B5"; /* Unicode for music symbol */
+    display: inline-block;
+    font-family: Arial, sans-serif; /* Use a font that supports the music symbol */
+    margin-right: 5px;
+}
